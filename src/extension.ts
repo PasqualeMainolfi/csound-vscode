@@ -50,16 +50,16 @@ function getServerPath(context: vscode.ExtensionContext): string | undefined {
   let binaryName = '';
 
   if (platform === 'win32') {
-    binaryName = 'csound-lsp-windows.exe';
+    binaryName = 'csound-lsp-windows-x86_64.exe';
   } 
   else if (platform === 'linux') {
-    binaryName = 'csound-lsp-linux';
+    binaryName = 'csound-lsp-linux-x86_64';
   } 
   else if (platform === 'darwin') {
     if (arch === 'arm64') {
-      binaryName = 'csound-lsp-macos-arm64';
+      binaryName = 'csound-lsp-macos-aarch64';
     } else {
-      binaryName = 'csound-lsp-macos-x64';
+      binaryName = 'csound-lsp-macos--x86_64';
     }
   } 
   else {
