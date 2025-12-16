@@ -2,7 +2,7 @@
   "name": "csound-vscode",
   "displayName": "CSound VSCode",
   "description": "csound vscode support",
-  "publisher": "Pasquale Mainolfi",
+  "publisher": "pmaino",
   "repository": {
     "type": "git",
     "url": "https://github.com/PasqualeMainolfi/csound-vscode.git"
