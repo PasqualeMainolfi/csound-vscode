@@ -14,6 +14,14 @@
 
 ## Release Notes
 
+### 0.0.2
+
+- Fixed several issues in the language server to improve stability and reliability when analyzing CSound files (.csd, .orc, .sco, .udo)
+- The grammar has been enhanced for better parsing of score, options, and udo blocks, with fixes for edge cases
+- The language server now provides contextual completions for options defined in `<CsOptions>` blocks
+- Detection of declared but unused variables has been improved and now highlights them correctly using semantic tokens
+- Completed semantic token mapping to support VS Code highlighting, covering variables, parameters, numbers, strings, functions, macros, types, comments, keywords, operators, and namespaces
+
 ### 0.0.1
 
 - Initial release

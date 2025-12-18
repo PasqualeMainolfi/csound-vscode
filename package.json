@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/PasqualeMainolfi/csound-vscode.git"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.107.0"
   },
@@ -38,11 +38,29 @@
         ],
         "configuration": "./language-configuration.json"
       }
-    ]
-  },
-  "configurationDefaults": {
-    "[csound]": {
-      "editor.semanticHighlighting.enabled": true
+    ],
+    "semanticTokenScopes": [
+      {
+        "language": "csound",
+        "scopes": {
+          "variable": ["variable"],
+          "function": ["function"],
+          "type": ["type"],
+          "keyword": ["keyword"],
+          "string": [ "string"],
+          "number": ["constant.numeric"],
+          "comment": ["comment.line", "comment.block"],
+          "operator": ["operator"],
+          "macro": ["macro"],
+          "property": ["property"],
+          "namespace": ["namespace"]
+        }
+      }
+    ],
+    "configurationDefaults": {
+      "[csound]": {
+        "editor.semanticHighlighting.enabled": true
+      }
     }
   },
   "scripts": {
