@@ -36,6 +36,10 @@
           ".csd",
           ".sco"
         ],
+        "icon": {
+          "light": "./icons/cs-icon-light.svg",
+          "dark": "./icons/cs-icon-dark.svg"
+        },
         "configuration": "./language-configuration.json"
       }
     ],
