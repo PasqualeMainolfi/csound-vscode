@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.0.3] 2025-18-12
+
+- add language icons
+
 ## [0.0.2] - 2025-18-12
 
 - Fixed several issues in the language server to improve stability and reliability when analyzing CSound files (.csd, .orc, .sco, .udo)

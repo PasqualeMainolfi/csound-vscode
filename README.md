@@ -14,6 +14,10 @@
 
 ## Release Notes
 
+### 0.0.3
+
+- add language icons
+
 ### 0.0.2
 
 - Fixed several issues in the language server to improve stability and reliability when analyzing CSound files (.csd, .orc, .sco, .udo)

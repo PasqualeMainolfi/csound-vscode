@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/PasqualeMainolfi/csound-vscode.git"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.107.0"
   },
@@ -37,8 +37,8 @@
           ".sco"
         ],
         "icon": {
-          "light": "./icons/cs-icon-light.svg",
-          "dark": "./icons/cs-icon-dark.svg"
+          "light": "./icons/cs-icon-light.png",
+          "dark": "./icons/cs-icon-dark.png"
         },
         "configuration": "./language-configuration.json"
       }
