@@ -59,7 +59,7 @@ function getServerPath(context: vscode.ExtensionContext): string | undefined {
     if (arch === 'arm64') {
       binaryName = 'csound-lsp-macos-aarch64';
     } else {
-      binaryName = 'csound-lsp-macos--x86_64';
+      binaryName = 'csound-lsp-macos-x86_64';
     }
   } 
   else {
