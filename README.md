@@ -14,6 +14,14 @@
 
 ## Release Notes
 
+### 0.0.5
+
+- Implemented proper recognition of score symbols
+- Added support for embedded script blocks inside the score section
+- Implemented autocompletion for flags inside the Options block
+- Fixed a bug that prevented correct recognition of .sco, .orc, and .udo files
+- Fixed several general parsing and stability issues across the grammar and tooling.
+
 ### 0.0.3
 
 - add language icons
